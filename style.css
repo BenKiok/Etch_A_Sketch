@@ -1,4 +1,8 @@
 .container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 0;
   width: 800px;
   height: 800px;
   margin: auto;
@@ -6,11 +10,4 @@
 
 .sketched {
   background-color: black;
-}
-
-.container div {
-  width: 200px;
-  height: 200px;
-  margin: 0;
-  display: inline-block;
 }
