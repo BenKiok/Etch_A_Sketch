@@ -1,0 +1,16 @@
+.container {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+
+.sketched {
+  background-color: black;
+}
+
+.container div {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: inline-block;
+}
