@@ -18,14 +18,14 @@ input[type="button"] {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(16, auto);
-  grid-template-rows: repeat(auto, auto);
-  grid-gap: 0;
   width: 800px;
   height: 800px;
   margin: auto;
   background: white;
+  display: grid;
+  grid-template-columns: repeat(16, auto);
+  grid-template-rows: repeat(16, auto);
+  grid-gap: 0;
 }
 
 .sketched {

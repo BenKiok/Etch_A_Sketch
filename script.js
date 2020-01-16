@@ -30,8 +30,9 @@ function createDivs(num) {
 
 function resizeGrid() {
    let gridLength = prompt('How many boxes would you like each row to have?', 16);
-   container.style = `grid-template-columns: repeat(${gridLength}, auto);
-                      grid-template-rows: repeat(${gridLength}, auto)`;
-   createDivs(gridLength * gridLength);
+   let divLength = 800 / gridLength;
+   container.style = `grid-template-columns: repeat(${gridLength}, ${divLength}px);
+                      grid-template-rows: repeat(${gridLength}, ${divLength}px)`;
+   createDivs(gridLength ** 2);
    resetGrid();
 }
